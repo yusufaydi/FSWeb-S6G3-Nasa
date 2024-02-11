@@ -8,7 +8,7 @@ function App() {
   const [apodData, setApodData] = useState([]);
 
   useEffect(() => {
-    let counter = prompt("How many days would you like to see ? ");
+    let counter = prompt("How many media would you like to see ? ");
     async function fetchData() {
       const fetchData = await ApiObj.fetchData(counter);
       //console.log("err : " + fetchData.msg);
