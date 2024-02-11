@@ -6,8 +6,11 @@
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^14.0.0",
     "@testing-library/user-event": "^14.4.3",
+    "axios": "^0.24.0",
+    "prompt-sync": "^4.2.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-player": "^2.14.1",
     "react-scripts": "^5.0.1"
   },
   "scripts": {
@@ -30,5 +33,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "Bu iki aşamalı bir proje olacaktır.\r Bu projede NASA API yi kullanarak \"Astronomy Photo Of The Day\" (Günün Astronomi Fotosu) nu çağıracaksın. Önce datayı çağıracaksın, arayüzünüzde kullanmak üzere bu data parçalarını kullanarak bir kaç bileşen oluşturacaksın. Projenin ikinci günün de de ([Gelişmiş Görselleştirme Teknikleri](https://github.com/Workintech/FSWeb-S6G4-Nasa-II/blob/main/README.md)), uygulamanın stillerini yeniden elden geçireceksin. Bunu yaparken tekrar olması için, standart CSS özellikleriyle, [flex](https://developer.mozilla.org/en-US/docs/Web/CSS/flex) gibi yeteneklere odaklanarak ilerleyebilirsin.",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC"
 }
